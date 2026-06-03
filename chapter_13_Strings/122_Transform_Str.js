@@ -17,7 +17,7 @@ console.log(msg.replace(/FAIL/g, "PASS"));
 "Hello".concat(" ", "World");
 `${"Hello"} ${"World"}`;
 
-let url = "https://app.vwo.con?app=pramod";
+let url = "https://app.vwo.con?app=Shinu";
 console.log(url.replace(/app/g, "qa"));
 
 let r = "pass,fail,skip".split(",");

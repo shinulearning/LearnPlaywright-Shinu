@@ -38,7 +38,7 @@ Literals are the **raw values** you bake straight into your source code — no c
 Five primitive literals stitched together with `typeof` — the SDET's first peek at what JS calls each value.
 
 ```js
-let age = "pramod"; // This is a string literal assigned to the variable 'age'.
+let age = "Shinu"; // This is a string literal assigned to the variable 'age'.
 let isStudent = true; // This is a boolean literal assigned to the variable 'isStudent'.
 let pi = 3.14; // This is a numeric literal assigned to the variable 'pi'.
 let name = 'Alice'; // This is a string literal assigned to the variable 'name'.
@@ -106,8 +106,8 @@ Value is: hello
 Quick sanity check — empty string and zero are still typed as `string` and `number`. They're falsy, not "empty."
 
 ```js
-let no_audi_pramod_sir_has = null;
-let pramod_has_two_wives;
+let no_audi_Shinu_sir_has = null;
+let Shinu_has_two_wives;
 
 let age = 0;
 
@@ -248,7 +248,7 @@ Backticks (`` ` ``) are the SDET's best friend — interpolation for env-aware A
 
 ```js
 let firstname = "Prrammod";
-let fullname = `Hi ${firstname} Dutta`;
+let fullname = `Hi ${firstname} AILabs`;
 console.log(fullname);
 
 let env = "prod";
@@ -274,7 +274,7 @@ await page.screenshot({ path: `screenshots/${testCase}_${timestamp}.png` });
 ```
 
 ```bash
-Hi Prrammod Dutta
+Hi Prrammod AILabs
 https://api-prod.tekion.com/users/12345
 [FAILED] Login Test completed in 2.3s
 ```

@@ -1,17 +1,17 @@
-const BASE_URL = "https://app.thetestingacademy.com";
-// const BASE_URL = "https://app.thetestingacademy.com";
-//BASE_URL = "https:/ / staging.thetestingacademy.com";
+const BASE_URL = "https://ShinuAILabs.com";
+// const BASE_URL = "https://ShinuAILabs.com";
+//BASE_URL = "https:/ / staging.theShinuAILabs.com";
 // TypeError: Assignment to constant variable.
 
 
 let name = "pending";
 name = "done";
 {
-    let name = "Dutta";
+    let name = "AILabs";
 }
 
 function say() {
-    let name = "Dutta";
+    let name = "AILabs";
 }
 say();
 say();

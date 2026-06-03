@@ -1,4 +1,4 @@
-# Learn Playwright Batch 2x
+# Learn Playwright
 
 <div align="center">
 
@@ -8,7 +8,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Status](https://img.shields.io/badge/Batch-In%20Progress-orange?style=for-the-badge)
 
-**The official course repository for Batch 2x — JavaScript, TypeScript, and Playwright for SDETs**
 
 *Zero to automation hero — JavaScript fundamentals → TypeScript → Playwright → AI Agents & MCP*
 
@@ -20,7 +19,7 @@
 
 ## Welcome to Batch 2x
 
-This repository is your **week-by-week course companion** for the LearnPlaywright Batch 2x cohort by [The Testing Academy](https://thetestingacademy.com). Code shown in lectures lands here so you can read it, run it, and practice on it.
+This repository is your **week-by-week course companion** for the LearnPlaywright Batch 2x cohort by [The ShinuAILabs](https://ShinuAILabs.com). Code shown in lectures lands here so you can read it, run it, and practice on it.
 
 > Content gets added **as we progress through the batch** — so check back after every class.
 
@@ -281,7 +280,7 @@ LearnPlaywrightBatch2x/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/PramodDutta/LearnPlaywrightBatch2x.git
+git clone https://github.com/ShinuAILabs/LearnPlaywrightBatch2x.git
 cd LearnPlaywrightBatch2x
 
 # 2. Verify your setup
@@ -295,7 +294,7 @@ node chapter_01_Basics/01_Basics.js
 
 ```bash
 $ node chapter_01_Basics/01_Basics.js
-Hello The Testing Academy
+Hello The ShinuAILabs
 ```
 
 If you see that line, you're all set! 🎉
@@ -424,7 +423,7 @@ mindmap
 ### Run them
 
 ```bash
-node chapter_01_Basics/01_Basics.js          # → "Hello The Testing Academy"
+node chapter_01_Basics/01_Basics.js          # → "Hello The ShinuAILabs"
 node chapter_01_Basics/02_JS.js              # → counts to 100000 calling print()
 node chapter_01_Basics/03_JS_Verify_Setup.js # → prints platform / arch / node version
 node chapter_01_Basics/04_HotCode.js         # → triggers V8 hot-path optimization
@@ -538,7 +537,7 @@ node chapter_04_Javascript_Concepts/21_Jr_QA.js          # → interview-style T
 **Q&A — why use this?**
 - **Q: Are `let` and `const` really hoisted?** A: Yes — but to a "not yet usable" state. The binding exists; the value does not. That gap is the TDZ.
 - **Q: How is this different from `var`?** A: `var` is hoisted **and** initialized to `undefined` immediately. `let`/`const` are hoisted but uninitialized — touching them = ReferenceError.
-- **Q: Why does the interview question with `const c` throw?** A: The `console.log(c)` runs **inside** the TDZ of `const c = "pramod"`. Hoisting is not "no declaration"; it's "declaration parked, value not yet set".
+- **Q: Why does the interview question with `const c` throw?** A: The `console.log(c)` runs **inside** the TDZ of `const c = "Shinu"`. Hoisting is not "no declaration"; it's "declaration parked, value not yet set".
 
 ```mermaid
 sequenceDiagram
@@ -649,8 +648,8 @@ node chapter_05_Literal/28_Template_Literal.js     # → backtick interpolation
 mindmap
   root((Literal))
     string
-      'pramod'
-      "pramod"
+      'Shinu'
+      "Shinu"
     number
       3.14
       42
@@ -665,7 +664,7 @@ mindmap
 
 ```js
 // 22_Literal.js
-let age = "pramod";        // string literal
+let age = "Shinu";        // string literal
 let isStudent = true;      // boolean literal
 let pi = 3.14;             // number literal
 let nullValue = null;      // null literal
@@ -1153,7 +1152,7 @@ console.log(`Status ${statusCode}: ${category}`);   // Status 404: Client Error
 mindmap
   root((typeof))
     "string"
-      'pramod'
+      'Shinu'
       "hi"
       `tpl`
     "number"
@@ -2333,12 +2332,12 @@ mindmap
 ```bash
 node chapter_12_Funtions/96_Functions.js                       # → "Hi, how are you?"
 node chapter_12_Funtions/97_Type1_Fn_Basic_Functions.js        # → "Hi" + undefined
-node chapter_12_Funtions/98_Type2_Fn_With_Param_No_Return.js   # → "Hi Pramod" + undefined
+node chapter_12_Funtions/98_Type2_Fn_With_Param_No_Return.js   # → "Hi Shinu" + undefined
 node chapter_12_Funtions/99_Type3_Fn_without_Param_Return_Type.js # → "Hi" then "Hello"
 node chapter_12_Funtions/100_Type4_Fn_With_Param_With_Return.js   # → 9
 node chapter_12_Funtions/101_Template_literal.js               # → "Hello, Alice"
-node chapter_12_Funtions/102_Fn_Expression.js                  # → "Hello, Pramod"
-node chapter_12_Funtions/103_Arrow_Fn.js                       # → 20, then "Dutta"
+node chapter_12_Funtions/102_Fn_Expression.js                  # → "Hello, Shinu"
+node chapter_12_Funtions/103_Arrow_Fn.js                       # → 20, then "AILabs"
 node chapter_12_Funtions/104_Arrow_Fn_REAL.js                  # → validateStatusCode in 3 forms
 node chapter_12_Funtions/105_IIFE.js                           # → IIFE bodies run on definition
 node chapter_12_Funtions/106_Default_Param_Fn.js               # → default param fallback
@@ -2432,7 +2431,7 @@ let a = greet();              // prints "Hi", a === undefined
 
 // 98 — Type 2 (param, no return)
 function greetByName(name) { console.log("Hi", name); }
-let r = greetByName("Pramod"); // prints "Hi Pramod", r === undefined
+let r = greetByName("Shinu"); // prints "Hi Shinu", r === undefined
 
 // 99 — Type 3 (no params, return)
 function goToRelativeHouse() { return "Hello"; }
@@ -2543,7 +2542,7 @@ const doubleIt = n => n * 2;          // implicit return
 console.log(doubleIt(10));            // 20
 
 const printIt = name => console.log(name);  // side-effect arrow
-printIt("Dutta");                     // "Dutta"
+printIt("AILabs");                     // "AILabs"
 
 // Multiple params + multi-line body
 const add = (a, b) => {
@@ -2683,7 +2682,7 @@ function logResult(suiteName, ...results) {
 }
 
 logResult('Login Test', 1, 2, 3);
-logResult('Reg Test', "Hello", "Pramod");  // results = ["Hello", "Pramod"]
+logResult('Reg Test', "Hello", "Shinu");  // results = ["Hello", "Shinu"]
 ```
 
 ---
@@ -3191,11 +3190,11 @@ npx playwright show-trace <trace.zip>    # Open trace viewer
 
 ## 🔗 Resources
 
-- 📺 [The Testing Academy YouTube](https://youtube.com/@TheTestingAcademy)
-- 🌐 [thetestingacademy.com](https://thetestingacademy.com)
+- 📺 [The ShinuAILabs YouTube](https://youtube.com/@TheShinuAILabs)
+- 🌐 [theShinuAILabs.com](https://theShinuAILabs.com)
 - 📚 [Playwright Docs](https://playwright.dev/docs/intro)
 - 📚 [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-- 📦 [Reference Repo — Batch 1](https://github.com/PramodDutta/LearningPlaywrightBatch)
+- 📦 [Reference Repo — Batch 1](https://github.com/ShinuAILabs/LearningPlaywrightBatch)
 
 ---
 
@@ -3203,8 +3202,8 @@ npx playwright show-trace <trace.zip>    # Open trace viewer
 
 | | |
 |---|---|
-| **Author** | Pramod Dutta |
-| **Organization** | The Testing Academy |
+| **Author** | Shinu AILabs |
+| **Organization** | The ShinuAILabs |
 | **Batch** | 2x (in progress) |
 | **Stack** | JavaScript · TypeScript · Playwright · Node 18+ |
 
@@ -3216,6 +3215,6 @@ npx playwright show-trace <trace.zip>    # Open trace viewer
 
 *Code with intent. Test with confidence. Automate with joy.*
 
-— Pramod & The Testing Academy team
+— Shinu & The ShinuAILabs team
 
 </div>

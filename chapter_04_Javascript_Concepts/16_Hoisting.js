@@ -15,5 +15,5 @@ console.log(greeting);
 
 // var a;
 console.log(a);
-var a = "Pramod";
+var a = "Shinu";
 console.log(a);

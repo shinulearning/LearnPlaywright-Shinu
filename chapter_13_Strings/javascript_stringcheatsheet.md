@@ -78,7 +78,7 @@
 | `String()` | `String(true)` | `"true"` |
 | `normalize()` | `"é".normalize()` | unicode-normalized |
 | `localeCompare()` | `"a".localeCompare("b")` | `-1` |
-| template literal | `` `Hi ${name}` `` | `"Hi Pramod"` |
+| template literal | `` `Hi ${name}` `` | `"Hi Shinu"` |
 | `String.raw` | `` String.raw`a\nb` `` | `"a\\nb"` |
 
 ---

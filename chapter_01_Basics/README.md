@@ -33,13 +33,13 @@ First steps in JavaScript on Node.js. This chapter gets your environment talking
 The classic "does my Node setup work?" check. Prints a greeting and declares a variable that we don't even use — just proving the syntax parses.
 
 ```js
-console.log("Hello The Testing Academy");
+console.log("Hello Shinu AI Labs");
 let x = 10;
 ```
 
 ```bash
 $ node chapter_01_Basics/01_Basics.js
-Hello The Testing Academy
+Hello Shinou AI Labs
 ```
 
 ---

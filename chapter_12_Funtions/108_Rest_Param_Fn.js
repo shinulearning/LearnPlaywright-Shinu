@@ -5,4 +5,4 @@ function logResult(suiteName, ...results) {
 }
 
 logResult('Login Test', 1, 2, 3);
-logResult('Reg Test', "Hello", "Pramod");
+logResult('Reg Test', "Hello", "Shinu");

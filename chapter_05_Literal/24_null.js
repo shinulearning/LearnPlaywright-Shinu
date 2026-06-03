@@ -1,5 +1,5 @@
-let no_audi_pramod_sir_has = null;
-let pramod_has_two_wives;
+let no_audi_Shinu_sir_has = null;
+let Shinu_has_two_wives;
 
 let age = 0;
 

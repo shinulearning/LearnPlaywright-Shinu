@@ -38,15 +38,15 @@ console.log(isSKMale);
 
 // Multiple Condition
 let age = 26;
-let is_pramod_goa = age > 26 ? "Yes, he will go" : "else he will not go";
-console.log(is_pramod_goa);
+let is_Shinu_goa = age > 26 ? "Yes, he will go" : "else he will not go";
+console.log(is_Shinu_goa);
 
 
 
 
-let age_pramod = 45;
-let is_pramod_d = age_pramod > 18 ? (age_pramod > 26 ? "Drink" : "No Drink") : "NO GOA";
-console.log(is_pramod_d);
+let age_Shinu = 45;
+let is_Shinu_d = age_Shinu > 18 ? (age_Shinu > 26 ? "Drink" : "No Drink") : "NO GOA";
+console.log(is_Shinu_d);
 
 
 /// --------------------

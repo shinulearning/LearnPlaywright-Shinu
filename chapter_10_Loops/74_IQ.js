@@ -1,9 +1,9 @@
-// // for (let pramod = 0; pramod > 1; pramod++) {
-// //     console.log(pramod);
+// // for (let Shinu = 0; Shinu > 1; Shinu++) {
+// //     console.log(Shinu);
 // // }
 
-// // for (let pramod = 0; ; pramod++) {
-// //     console.log(pramod);
+// // for (let Shinu = 0; ; Shinu++) {
+// //     console.log(Shinu);
 // // }
 
 

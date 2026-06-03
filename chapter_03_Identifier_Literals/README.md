@@ -50,19 +50,19 @@ var ab123 = 34;
 
 // var 123 = 123;
 
-var Name = "pramod";
-var name = "Amit";
-//var pramod dutta = "hello";
-var pramod_dutta = "hello";
-var pramod$dutta = "hello";
-var pramodu1232 = "hello";
+var Name = "Shinu";
+var name = "AI";
+//var Shinoj = "hello";
+var Shinu_AI = "hello";
+var Shinu$AI = "hello";
+var Shinu1232 = "hello";
 ```
 
 Expected output:
 
 ```bash
 # No console.log — file runs silently with no output.
-# Uncommenting `var 123 = 123;` or `var pramod dutta = ...` throws SyntaxError.
+# Uncommenting `var 123 = 123;` or `var Shinu AILabs = ...` throws SyntaxError.
 ```
 
 ---
@@ -72,12 +72,12 @@ Expected output:
 Walks the five naming conventions side-by-side so you can pick the right style for variables, classes, constants, and legacy code.
 
 ```js
-var name = "Pramod";
+var name = "Shinu";
 
-var firstName = "Pramod";
-var lastName = "Dutta"; // CamelCase
+var firstName = "Shinu";
+var lastName = "AI"; // CamelCase
 
-var first_name = "Amit"; // Snake Case
+var first_name = "Shinoj"; // Snake Case
 
 // Naming Conventions (Cases)
 // ============================================
@@ -130,17 +130,6 @@ Demonstrates the three comment styles and shows how comments are completely igno
 // this line will be not executed
 
 
-/*
- *  This is multi line
- *  Author : Prrmmod Dutta
- *  Date : 14-Feb-2026
- */
-
-/**
- *  This is multi line
- *  Author : Prrmmod Dutta
- *  Date : 14-Feb-2026
- **/
 
 // var g = 10;
 

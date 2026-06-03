@@ -97,7 +97,7 @@ var a = 10;// Global SCOPE
 console.log(a);
 
 function printHello() {
-    console.log("Hello TheTestingAcademy!");
+    console.log("Hello TheShinuAILabs!");
     var a = 20; // Local Scope
     console.log(a);
     if (true) {
@@ -113,7 +113,7 @@ var a = 50;
 
 ```bash
 10
-Hello TheTestingAcademy!
+Hello TheShinuAILabs!
 20
 30
 ```
@@ -151,18 +151,18 @@ ReferenceError: executionTime is not defined
 `const` binding cannot be re-assigned — TypeError on attempt.
 
 ```js
-const BASE_URL = "https://app.thetestingacademy.com";
-// BASE_URL = "https://staging.thetestingacademy.com";
+const BASE_URL = "https://ShinuAILabs.com";
+// BASE_URL = "https://staging.theShinuAILabs.com";
 // TypeError: Assignment to constant variable.
 
 let name = "pending";
 name = "done";
 {
-    let name = "Dutta";
+    let name = "AILabs";
 }
 
 function say() {
-    let name = "Dutta";
+    let name = "AILabs";
 }
 say();
 say();
@@ -180,7 +180,7 @@ A clean walk-through of `var` global + nested function scope.
 var a = 10; // Global Scope
 console.log(a);
 function printHello() {
-    console.log("Hello TheTestingAcademy!");
+    console.log("Hello TheShinuAILabs!");
     var a = 20; // Local Scope
     console.log(a);
     if (true) {
@@ -198,7 +198,7 @@ printHello();
 ```bash
 10
 G -> 10
-Hello TheTestingAcademy!
+Hello TheShinuAILabs!
 20
 30
 F -> 30
@@ -212,7 +212,7 @@ Same structure, `let` instead of `var` — now block scope behaves sanely.
 let a = 10; // Global Scope
 console.log(a);
 function printHello() {
-    console.log("Hello TheTestingAcademy!");
+    console.log("Hello TheShinuAILabs!");
     let a = 20; // Local Scope
     console.log(a);
     if (true) {
@@ -230,7 +230,7 @@ printHello();
 ```bash
 10
 G -> 10
-Hello TheTestingAcademy!
+Hello TheShinuAILabs!
 20
 30
 F -> 20
@@ -246,7 +246,7 @@ var greeting = "Hello";
 console.log(greeting);
 
 console.log(a);
-var a = "Pramod";
+var a = "Shinu";
 console.log(a);
 ```
 
@@ -254,7 +254,7 @@ console.log(a);
 undefined
 Hello
 undefined
-Pramod
+Shinu
 ```
 
 ### 17_hoisting_fn.js
@@ -318,7 +318,7 @@ global
 ```js
 console.log(c);
 console.log("Hei");
-const c = "pramod;"
+const c = "Shinu;"
 ```
 
 ```bash

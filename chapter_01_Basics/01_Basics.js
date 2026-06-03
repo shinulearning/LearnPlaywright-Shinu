@@ -1,2 +1,1 @@
-console.log("Hello The Testing Academy");
-let x = 10;
+console.log("Hello, Shinu AI Labs");

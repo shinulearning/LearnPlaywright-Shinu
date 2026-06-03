@@ -1,7 +1,7 @@
 // Template literally. 
 
 let firstname = "Prrammod";
-let fullname = `Hi ${firstname} Dutta`;
+let fullname = `Hi ${firstname} AILabs`;
 console.log(fullname);
 
 
@@ -28,7 +28,7 @@ const timestamp = Date.now();
 await page.screenshot({ path: `screenshots/${testCase}_${timestamp}.png` });
 
 
-const username = "pramod";
+const username = "Shinu";
 const role = "admin";
 
 const payload = `{
