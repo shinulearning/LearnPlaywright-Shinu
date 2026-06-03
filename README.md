@@ -1,4 +1,4 @@
-# 🚀 Learn Playwright with Shinoj
+# 🚀 Learn Playwright with Shinu
 
 A structured learning repository covering **JavaScript, TypeScript, Playwright Automation, QA Engineering concepts, and real-world automation practices**.
 
